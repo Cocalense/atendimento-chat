@@ -8,7 +8,7 @@ body{
     height: 600px;
     border-style: double;
     border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(217, 222, 226);
+    background-color: rgb(253, 253, 253);
     margin-left: 20px;
 
 }
@@ -29,12 +29,14 @@ body{
 }
 
 .chatBox{
+    overflow-y: scroll;
     width: 450px;
     height: 450px;
     border: 2px solid gray;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+    
 }
 
 .containerLeft{
@@ -49,6 +51,7 @@ body{
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+
 }
 
 .mensagemLeft{
