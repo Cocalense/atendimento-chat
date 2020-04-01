@@ -8,7 +8,7 @@ body{
     height: 600px;
     border-style: double;
     border: 2px solid rgb(0, 0, 0);
-    background-color: blanchedalmond;
+    background-color: rgb(231, 221, 216);
     margin-left: 20px;
 
 }
@@ -16,12 +16,15 @@ body{
     width: 500px;
     height: 35px;
     border-bottom: solid 2px;
-    border
-}
+}           
 
-/*falta arrumar o titulo*/
+
 .titulo{
-    font: 16px italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    padding-left: 20px;    
+    
 }
 
 .chatBox{
@@ -33,11 +36,87 @@ body{
     margin-top: 20px;
 }
 
-#escreveTexto{
-    margin-left: 20px;
-    margin-top: 20px;
-    border: 1px solid black;
-    width: 350px;
-    height: 35px;
-    display: block;
+.containerLeft{
+    
+    width: 80%;
 }
+
+.atendente{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.mensagemLeft{
+    position: relative;
+    text-align: left;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid black;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.containerRight{
+    
+    width: 78%;
+    margin-left: 20%;
+}
+
+.voce{
+    margin-left: 78%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px; 
+}
+
+.mensagemRight{
+    position: relative;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid black;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+
+
+.comandos{
+    width: 475px;
+    height: 50px;
+    padding-inline-start: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.caixaTexto{
+    width: 370px;
+    height: 35px;
+    border: 1px solid black;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.botao{
+    width: 70px;
+    height: 35px;
+    border: 1px solid black;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
