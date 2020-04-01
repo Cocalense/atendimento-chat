@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(48, 40, 40);
 
 }
 
@@ -7,7 +7,7 @@ body{
     width: 500px;
     height: 600px;
     border-style: double;
-    border: 2px solid rgb(214, 10, 10);
+    border: 2px solid rgb(0, 0, 0);
     background-color: blanchedalmond;
     margin-left: 20px;
 
@@ -19,6 +19,13 @@ body{
     border
 }
 
+/*falta arrumar o titulo*/
 .titulo{
+    font: 16px italic;
+}
 
+.chatBox{
+    width: 450px;
+    height: 530px;
+    border: 2px solid gray;
 }
