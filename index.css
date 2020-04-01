@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(48, 40, 40);
+    background-color: rgb(235, 224, 224);
 
 }
 
@@ -8,7 +8,7 @@ body{
     height: 600px;
     border-style: double;
     border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(231, 221, 216);
+    background-color: rgb(217, 222, 226);
     margin-left: 20px;
 
 }
@@ -16,6 +16,7 @@ body{
     width: 500px;
     height: 35px;
     border-bottom: solid 2px;
+    
 }           
 
 
@@ -67,9 +68,9 @@ body{
 }
 
 .voce{
-    margin-left: 78%;
+    margin-left: 80%;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-bottom: 0px;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -108,8 +109,16 @@ body{
     overflow: hidden;
 }
 
+.texto{
+    height: 35px;
+    text-align: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
 .botao{
-    width: 70px;
+    width: 72px;
     height: 35px;
     border: 1px solid black;
     display: block;
@@ -118,5 +127,14 @@ body{
     margin-top: 10px;
     text-align: center;
 
+}
+
+.botaoEnviar{
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 72px;height: 35px;
+    padding: 6px;
 }
 
