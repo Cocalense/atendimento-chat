@@ -1,31 +1,24 @@
-.container{
+body{
+    background-color: black;
+
+}
+
+#container{
     width: 500px;
     height: 600px;
-    border: 1px solid black;
-    background-color: cadetblue;
-}
-
-.cabeçarioForm{
-    width: 480px;
-    height: 40px;
-    border: 1px solid black;
-    margin: 3px;
+    border-style: double;
+    border: 2px solid rgb(214, 10, 10);
     background-color: blanchedalmond;
-    padding: 5px;
+    margin-left: 20px;
+
+}
+.caixaTitulo{
+    width: 500px;
+    height: 35px;
+    border-bottom: solid 2px;
+    border
 }
 
-.tituloForm{
-    font-style: italic;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    margin: 10px;
-}
-
-.chat{
-    width: 480px;
-    height: 450px;
-    border: 1px solid black;
-    margin: 3px;
-    background-color: blueviolet;
-    padding: 5px;
+.titulo{
+    
 }
