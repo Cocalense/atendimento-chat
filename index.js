@@ -1,9 +1,6 @@
 <script>
-function openul() {
-  document.getElementById("botaoEnviar").style.display = "block";
-}
-
-function closeul() {
-  document.getElementById("botaoEnviar").style.display = "none";
-}
+function funcao01(){
+            alert("Olá, eu sou um alerta !")
+        }
 </script>
+        
