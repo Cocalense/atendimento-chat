@@ -90,54 +90,38 @@ body{
     text-align: left;
 }
 
-
-
-.comandos{
-    width: 475px;
-    height: 50px;
-    padding-inline-start: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .caixaTexto{
-    width: 370px;
+    width: 364px;
     height: 35px;
     border: 1px solid black;
+    position: relative;
     display: block;
     float: left;
     margin-right: 10px;
-    margin-left: 10px;
     margin-top: 10px;
     overflow: hidden;
-}
-
-.texto{
-    height: 35px;
-    text-align: initial;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    font-style: italic;
-}
-
-.botao{
-    width: 72px;
-    height: 35px;
-    border: 1px solid black;
-    display: block;
-    float: left;
-    margin-right: 5px;
-    margin-top: 10px;
-    text-align: center;
-
+    padding-left: 2px;
+    position: relative;
 }
 
 .botaoEnviar{
-    font-weight: bold;
+    width: 72px;
+    height: 39px;
+    border: 1px solid black;
+    position: relative;
+    display: block;
+    float: left;    
+    margin-top: 10px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    width: 72px;height: 35px;
-    padding: 6px;
+    
+
+}
+
+footer{
+    
+    width: 450px;
+    height: 55px;
+    margin: 10px 20px 0px 20px;
+   
 }
 

@@ -1,6 +1,22 @@
 <script>
-function funcao01(){
-            alert("Olá, eu sou um alerta !")
+    function formSubmit(event) {
+        event.preventDefault()
+        
+        const message = document.getElementById('msg')
+
+        if (message.value.length <= 0) {
+            return;            
         }
+        
+        const atendente = document.createElement('div')
+        atendente.
+        
+
+        
+        
+
+    }
+
+
 </script>
         
