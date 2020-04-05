@@ -28,8 +28,7 @@ body{
     
 }
 
-.chatBox{
-    overflow-y: scroll;
+#chatBox{
     width: 450px;
     height: 450px;
     border: 2px solid gray;
@@ -54,7 +53,7 @@ body{
 
 }
 
-.mensagemLeft{
+.mensagemTexto{
     position: relative;
     text-align: left;
     padding: 5px;
@@ -80,7 +79,7 @@ body{
     font-size: 12px; 
 }
 
-.mensagemRight{
+.mensagemTexto{
     position: relative;
     padding: 5px;
     font-size: 12px;
@@ -90,38 +89,44 @@ body{
     text-align: left;
 }
 
+
 .caixaTexto{
     width: 364px;
     height: 35px;
     border: 1px solid black;
-    position: relative;
-    display: block;
-    float: left;
     margin-right: 10px;
-    margin-top: 10px;
     overflow: hidden;
-    padding-left: 2px;
-    position: relative;
+    padding-left: 2px;position: relative;
 }
 
 .botaoEnviar{
     width: 72px;
     height: 39px;
-    border: 1px solid black;
+    border: 1px solid black;   
+    margin: 10px 10px 0px 10px;
+    text-align: center;   
     position: relative;
-    display: block;
-    float: left;    
-    margin-top: 10px;
-    text-align: center;
-    
-
 }
-
-footer{
-    
-    width: 450px;
+.acao{
+    border: 1px solid black;
+    width: auto;
     height: 55px;
-    margin: 10px 20px 0px 20px;
-   
+    width: 450px;
 }
 
+/*
+
+
+.caixaTexto{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10px;   
+    margin-right: 10px;
+}
+.botaoEnviar{
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;   
+    margin-right: 10px;
+}
+*/
