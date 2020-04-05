@@ -13,7 +13,7 @@ function stopDefAction(botaoEnviar) {
 }
 
 function enviandoMensagens(){
-    var mensagem = document.getElementById("caixaTexto").value;
+    var mensagem = document.getElementById("caixaTextoEntrada").value;
     if(mensagem.trim() !== ''){
         document.getElementById("caixaTexto").value = '';
         var container = document.createElement("div");

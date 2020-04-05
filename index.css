@@ -10,6 +10,7 @@ body{
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(253, 253, 253);
     margin-left: 20px;
+    position: fixed;
 
 }
 .caixaTitulo{
@@ -35,6 +36,8 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+    overflow-y: auto;
+    overflow-x: auto;
     
 }
 
@@ -89,8 +92,19 @@ body{
     text-align: left;
 }
 
+.acao{
+    background-color: blue;
+    border: 1px solid black;
+    width: auto;
+    height: 55px;
+    width: 450px;
+    margin: 10px 10px 0px 10px;
+    display: block;
+    position: relative;
+    
+}
 
-.caixaTexto{
+.caixaTextoEntrada{
     width: 364px;
     height: 35px;
     border: 1px solid black;
@@ -106,12 +120,6 @@ body{
     margin: 10px 10px 0px 10px;
     text-align: center;   
     position: relative;
-}
-.acao{
-    border: 1px solid black;
-    width: auto;
-    height: 55px;
-    width: 450px;
 }
 
 /*
