@@ -28,6 +28,7 @@ function enviandoMensagens(){
         var msg = document.createElement("p");
         msg.classList.add("mensagemTexto");
         msg.innerHTML = mensagem;
+        //a partir daqui mostramos p o javascript quem é filho de quem
         container.appendChild(direitotext);
         italico.appendChild(from);
         direitotext.appendChild(italico);
@@ -35,7 +36,7 @@ function enviandoMensagens(){
         mensagemContainer.appendChild(msg);
         document.getElementById("chatBox").appendChild(container);
         var objDiv = document.getElementById("chatBox")
-        objDiv.scrollTop = objDiv.scrollHeight;
+        objDiv.scrollTop = objDiv.scrollHeight;  //esse cria o scroll bar automatico sem necessidade do usuario ficar puxando p baixo
     }
     else{
         window.alert(" [Error] Impossível enviar mensagem em branco!");
