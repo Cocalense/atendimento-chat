@@ -1,22 +1,4 @@
-<script>
-    function formSubmit(event) {
-        event.preventDefault()
-        
-        const message = document.getElementById('msg')
+document.addEventListener('DOMContentLoaded', function(){
 
-        if (message.value.length <= 0) {
-            return;            
-        }
-        
-        const atendente = document.createElement('div')
-        atendente.
-        
-
-        
-        
-
-    }
-
-
-</script>
-        
+    document.getElementsByClassName("botaoEnviar").addEventListener("click", )
+}
