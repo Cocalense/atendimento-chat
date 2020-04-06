@@ -47,13 +47,12 @@ body{
 }
 
 .atendente{
-    margin-left: 4%;
+    margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 0px;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-
 }
 
 .mensagemTexto{
@@ -62,8 +61,10 @@ body{
     padding: 5px;
     font-size: 12px;
     border: 1px solid black;
-    margin-top: 0px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: darkblue;
+    
 }
 
 .containerRight{
@@ -72,17 +73,23 @@ body{
     margin-left: 20%;
 }
 
+.direitotext{
+    margin-left: 85%;
+}
+
 .usuario{
-    margin-left: 83%;
+    margin-left: 75px;
     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px; 
+    width: 360px;
 }
 
-.mensagemTexto{
+.mensagemTextoL{
+    width: 360px;
     position: relative;
     padding: 5px;
     font-size: 12px;

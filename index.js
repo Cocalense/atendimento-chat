@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    document.getElementsById("botaoEnviar").addEventListener("click",function(event){event.preventDefault(); enviandoMensagens();});
-    document.getElementById("caixaTexto").addEventListener("keydown", function(event){
+    document.getElementById("botaoEnviar").addEventListener("click",function(event){
+        event.preventDefault(); enviandoMensagens();});
+    document.getElementById("caixaTextoEntrada").addEventListener(function(event){
         if (event.key === "Enter"){
             enviandoMensagens();
         }
@@ -16,9 +17,8 @@ function stopDefAction(botaoEnviar) {
 
 function enviandoMensagens(){
     var mensagem = document.getElementById("caixaTextoEntrada").value;
-    window.alert(" Olá ta chegando!");
     if(mensagem.trim() !== ''){
-        document.getElementById("caixaTexto").value = '';
+        document.getElementById("caixaTextoEntrada").value = '';
         var container = document.createElement("div");
         container.classList.add("mensagemRight");
         var direitotext = document.createElement("div");
