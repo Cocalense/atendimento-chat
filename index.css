@@ -59,11 +59,12 @@ body{
     position: relative;
     text-align: left;
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
     border: 1px solid black;
     margin-top: 10px;
     margin-left: 50px;
     color: darkblue;
+    height: 30px;
     
 }
 
@@ -75,6 +76,7 @@ body{
 
 .direitotext{
     margin-left: 85%;
+    
 }
 
 .usuario{
@@ -88,13 +90,16 @@ body{
     width: 360px;
 }
 
+
+
 .mensagemTextoL{
     width: 360px;
+    height: 30px;
     position: relative;
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
     border: 1px solid black;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left: 10px;
     text-align: left;
 }

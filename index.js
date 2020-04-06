@@ -29,7 +29,7 @@ function enviandoMensagens(){
         var mensagemContainer = document.createElement("div");
         mensagemContainer.classList.add("mensagemTexto");
         var msg = document.createElement("p");
-        msg.classList.add("mensagemTexto");
+        
         msg.innerHTML = mensagem;
         //a partir daqui mostramos p o javascript quem é filho de quem
         container.appendChild(direitotext);
