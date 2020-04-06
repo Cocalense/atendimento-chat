@@ -47,7 +47,7 @@ body{
 }
 
 .atendente{
-    margin-left: 10px;
+    margin-left: 4%;
     margin-top: 10px;
     margin-bottom: 0px;
     font-style: italic;
@@ -73,7 +73,7 @@ body{
 }
 
 .usuario{
-    margin-left: 80%;
+    margin-left: 83%;
     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -92,23 +92,13 @@ body{
     text-align: left;
 }
 
-.acao{
-    background-color: blue;
-    border: 1px solid black;
-    width: auto;
-    height: 55px;
-    width: 450px;
-    margin: 10px 10px 0px 10px;
-    display: block;
-    position: relative;
-    
-}
-
 .caixaTextoEntrada{
     width: 364px;
     height: 35px;
     border: 1px solid black;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 40px;
+    margin-top: 10px;
     overflow: hidden;
     padding-left: 2px;position: relative;
 }
@@ -117,24 +107,8 @@ body{
     width: 72px;
     height: 39px;
     border: 1px solid black;   
-    margin: 10px 10px 0px 10px;
+    margin-top: 550px;
+    margin-left: 10px;
     text-align: center;   
     position: relative;
 }
-
-/*
-
-
-.caixaTexto{
-    width: 80%;
-    margin-top: 10px;
-    margin-left: 10px;   
-    margin-right: 10px;
-}
-.botaoEnviar{
-    width: 70px;
-    margin-top: 10px;
-    margin-left: 10px;   
-    margin-right: 10px;
-}
-*/

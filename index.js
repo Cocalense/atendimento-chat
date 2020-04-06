@@ -1,11 +1,13 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    document.getElementsByClassName("botaoEnviar").addEventListener("click", enviandoMensagens);
+    document.getElementsByClassName("botaoEnviar").addEventListener("click",function(event){event.preventDefault(); enviandoMensagens();});
     document.getElementById("caixaTexto").addEventListener("keydown", function(event){
         if (event.key === "Enter"){
             enviandoMensagens();
         }
     });
+
+
 }, false);
 
 function stopDefAction(botaoEnviar) {
