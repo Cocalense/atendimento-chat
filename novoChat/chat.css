@@ -62,6 +62,7 @@ header{
     width: 300px;
     text-align: left;
     padding-right: 10px;
+    padding-left: 10px;
     border: 1px solid rgb(250, 115, 115);
     position: relative;
     display: block;
