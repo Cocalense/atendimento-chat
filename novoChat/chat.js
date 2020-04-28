@@ -10,27 +10,36 @@ function envMsg(event){
     var mensagem = document.getElementById('digitando').value;
     if(mensagem.trim() !== ''){
         document.getElementById('digitando').value = '';
-     //   var container = document.createElement("div");
-     //  container.classList.add("")
+        var container = document.createElement("div");
+        container.classList.add("usuarioTop");
+        var boxTextRight = document.createElement("div");
+        boxTextRight.classList.add("boxTextRight")
+        var textoUsuario = document.createElement("div");
+        textoUsuario.classList.add("textoUsuario");
+        var msg = document.createElement("p");
+        msg.classList.add("texto");
+        msg.innerHTML = mensagem;
+
+        container.appendChild(boxTextRight);
+        boxTextRight.appendChild(textoUsuario);
+        textoUsuario.appendChild()  //mensagemcontainer
+        FALTA FALTA
     }
 }
 
 carregar();
 document.getElementById('formChat').addEventListener('submit',envMsg)
 
-//daqui pra baixo é cola só par a conferÊncia
-//function enviandoMensagens(){
-   // var mensagem = document.getElementById("caixaTextoEntrada").value;
-   // if(mensagem.trim() !== ''){
-    //    document.getElementById("caixaTextoEntrada").value = '';
-        var container = document.createElement("div");
-        container.classList.add("mensagemRight");
-        var direitotext = document.createElement("div");
-        direitotext.classList.add("direitotext");
-        var from = document.createElement("p");
-        var italico = document.createElement("i");
-        from.innerHTML = "Você diz: ";
-        var mensagemContainer = document.createElement("div");
-        mensagemContainer.classList.add("mensagemTexto");
-        var msg = document.createElement("p");
-//
+ 
+     /* container.appendChild(toRight);
+                        // italico.appendChild(from);
+      toRight.appendChild(italico);
+      container.appendChild(msgContainer);
+      msgContainer.appendChild(msg);
+      document.getElementById("chatContainer").appendChild(container);
+      var objDiv = document.getElementById("chatContainer");
+      objDiv.scrollTop = objDiv.scrollHeight;
+    }else{
+        alert('Não é possivel enviar mensagem em branco!');
+    }
+        */

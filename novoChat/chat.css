@@ -14,8 +14,7 @@ body{
 }
 header{
     width: 600px ;
-    height: 30px;
-    
+    height: 30px;    
     padding: 5px 10px 25px 10px;
     text-align: left;
     
@@ -32,21 +31,21 @@ header{
     padding: 8px;
     
 }
-#atendente{
+.atendente{
     background-color: cornflowerblue
     width: 300px;
     text-align: left;
     padding-left: 11px;
     
 }
-#atendenteText{
+.atendenteText{
     background-color: rgb(241, 241, 248);
     width: 300px;
     text-align: left;
     padding-left: 10px;
     border: 1px solid gray;
 }
-#usuario{
+.usuario{
    
     width: 300px;
     text-align: right;
@@ -57,7 +56,7 @@ header{
     float: right;
     margin-top: 15px;
 }
-#usuarioText{
+.usuarioText{
     background-color: darkturquoise;
     width: 300px;
     text-align: left;
