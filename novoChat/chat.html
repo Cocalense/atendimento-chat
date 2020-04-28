@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atendimento on-line</title>
     <link rel="stylesheet" href="chat.css">
-    <script src="chat.js"></script>
+    
 </head>
-<body onload="carregar">
+<body>
     <div id="container">
         <header id="hdr">
             <h3>Atendimento</h3>
@@ -17,28 +17,22 @@
             <div id="atendente">
                 <p class="atendente">text text text text</p> 
             </div>
-
-            <!--  ANALISANDO E COMPARANDO ESTA SECÇÃO....
-                <div class="containerLeft">                                   
-                <p class="atendente">Atendente diz:</p>
-                <div class="caixaLeft">
-                    <p class="mensagemTextoL"> blablabla</p>
-                </div>
-            -->
-
-
-            <div id="atendenteText">AtendenteText</div>
-            <div id="usuario">Usuário</div>
-            <div id="usuarioText">
+            <div class="atendenteText">AtendenteText</div>
+            <div class="usuario">Usuário</div>
+            <div class="usuarioText">
                 <p class="usuarioText">text text text tex</p>    
             </div>
             
         </section>
         <footer>
-            <input type="text" name="digitando" id="digitando" placeholder="Digite aqui sua mensagem...">
-            <input id="btn" type="button" value="Enviar">
+            <form action="" id="formChat">
+                <input type="text" name="digitando" id="digitando" placeholder="Digite aqui sua mensagem...">
+                <input id="btn" type="submit" value="Enviar">
+            </form>
+           
         </footer>
-
+        
     </div>
+    <script src="chat.js"></script>
 </body>
 </html>

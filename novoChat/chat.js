@@ -4,11 +4,15 @@ function carregar() {
 }
 
 
-function envMsg(){
+function envMsg(event){
+    event.preventDefault()
     var mensagem = window.document.getElementById('digitando').value;
     if(mensagem.trim() !== ''){
         window.document.getElementById('digitando').value = '';
-        var container = document.createElement("div");
-        container.classList.add("")
+     //   var container = document.createElement("div");
+     //  container.classList.add("")
     }
 }
+
+carregar();
+document.getElementById('formChat').addEventListener('submit',envMsg)
