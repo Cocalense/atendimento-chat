@@ -12,10 +12,8 @@ body{
     
     
 }
-header{
-    width: 600px ;
-    height: 30px;    
-    padding: 5px 10px 25px 10px;
+.tituloHeader{
+    font-family: sans-serif;
     text-align: left;
     
 }
@@ -31,44 +29,47 @@ header{
     padding: 8px;
     
 }
-.atendente{
-    background-color: cornflowerblue
-    width: 300px;
-    text-align: left;
-    padding-left: 11px;
-    
-}
-.atendenteText{
-    background-color: rgb(241, 241, 248);
+
+.tituloLeft{
+    background-color: rgb(235, 235, 243);
     width: 300px;
     text-align: left;
     padding-left: 10px;
-    border: 1px solid gray;
+    border: 1px solid rgb(240, 6, 6);
 }
-.usuario{
-   
+.tituloRight{
+    background-color: lavenderblush;
     width: 300px;
     text-align: right;
     padding-right: 10px;
-    border: 1px solid white;
+    border: 1px solid rgb(233, 20, 20);
     position: relative;
     display: block;
     float: right;
     margin-top: 15px;
 }
-.usuarioText{
+ .boxTextLeft{
     background-color: darkturquoise;
     width: 300px;
     text-align: left;
-    padding-right: 10px;
+  
     padding-left: 10px;
     border: 1px solid rgb(250, 115, 115);
     position: relative;
     display: block;
     float: right;
 }
-
-
+.boxTextRight{
+    background-color: darkturquoise;
+    width: 300px;
+    text-align: left;
+    padding-right: 10px;
+    
+    border: 1px solid rgb(250, 115, 115);
+    position: relative;
+    display: block;
+    float: right;
+}
 #digitando{
     width: 350px;
     height: 25px;

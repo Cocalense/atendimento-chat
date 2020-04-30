@@ -1,6 +1,6 @@
 function carregar() {
-    var hdr = document.getElementById('hdr')
-    hdr.innerHTML ='mudando o texto'
+    var tituloHeader = document.getElementsByClassName('tituloHeader')
+    tituloHeader.innerHTML ='Atendimento on-line'
 }
 
 
@@ -8,38 +8,25 @@ function carregar() {
 function envMsg(event){   
     event.preventDefault()
     var mensagem = document.getElementById('digitando').value;
-    if(mensagem.trim() !== ''){
+    if(mensagem.trim() !== ''){                                     //dúvida 
         document.getElementById('digitando').value = '';
         var container = document.createElement("div");
-        container.classList.add("usuarioTop");
+        container.classList.add("tituloRight");
         var boxTextRight = document.createElement("div");
-        boxTextRight.classList.add("boxTextRight")
-        var textoUsuario = document.createElement("div");
-        textoUsuario.classList.add("textoUsuario");
+        boxTextRight.classList.add("boxTextRight");
         var msg = document.createElement("p");
         msg.classList.add("texto");
         msg.innerHTML = mensagem;
 
-        container.appendChild(boxTextRight);
-        boxTextRight.appendChild(textoUsuario);
-        textoUsuario.appendChild()  //mensagemcontainer
-        FALTA FALTA
+        container.appendChild(boxTextRight);    //dúvida 
+        boxTextRight.appendChild(textoRight);   //dúvida 
+        textoRight.appendChild(texto);          //o texto é a mensagem que o atendente e o usuario escrevem
+        texto.appendChild("p"); 
+        texto.innerHTML = texto;                //dúvida 
     }
 }
 
 carregar();
 document.getElementById('formChat').addEventListener('submit',envMsg)
 
- 
-     /* container.appendChild(toRight);
-                        // italico.appendChild(from);
-      toRight.appendChild(italico);
-      container.appendChild(msgContainer);
-      msgContainer.appendChild(msg);
-      document.getElementById("chatContainer").appendChild(container);
-      var objDiv = document.getElementById("chatContainer");
-      objDiv.scrollTop = objDiv.scrollHeight;
-    }else{
-        alert('Não é possivel enviar mensagem em branco!');
-    }
-        */
+mestre Lucas, avalia esse codigo e me ajuda a recria-lo e fazer funcionar ...please
