@@ -1,8 +1,3 @@
-function carregar() {
-    var tituloHeader = document.getElementsByClassName('tituloHeader')
-    tituloHeader.innerHTML ='Atendimento on-line'
-}
-
 
 //criando um parâmetro(event), para posteriormente indicar à função que previna comportamento padrão
 function envMsg(event){   
