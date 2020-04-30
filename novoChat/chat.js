@@ -12,17 +12,19 @@ function envMsg(event){
         document.getElementById('digitando').value = '';
         var container = document.createElement("div");
         container.classList.add("tituloRight");
+        var tituloVcDiz  = document.createElement("p");
+        tituloVcDiz .innerText = "Você diz: ";
         var boxTextRight = document.createElement("div");
         boxTextRight.classList.add("boxTextRight");
         var msg = document.createElement("p");
         msg.classList.add("texto");
         msg.innerHTML = mensagem;
 
-        container.appendChild(boxTextRight);    //dúvida 
-        boxTextRight.appendChild(textoRight);   //dúvida 
-        textoRight.appendChild(texto);          //o texto é a mensagem que o atendente e o usuario escrevem
-        texto.appendChild("p"); 
-        texto.innerHTML = texto;                //dúvida 
+        container.appendChild(tituloVcDiz);
+        container.appendChild(boxTextRight);
+        boxTextRight.appendChild(msg);
+        var secaoCentral = document.getElementById("secaoCentral");
+        secaoCentral.appendChild(container);
     }
 }
 
