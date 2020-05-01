@@ -26,4 +26,3 @@ function envMsg(event){
 carregar();
 document.getElementById('formChat').addEventListener('submit',envMsg)
 
-mestre Lucas, avalia esse codigo e me ajuda a recria-lo e fazer funcionar ...please
