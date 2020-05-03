@@ -23,6 +23,6 @@ function envMsg(event){
     }
 }
 
-carregar();
+
 document.getElementById('formChat').addEventListener('submit',envMsg)
 
